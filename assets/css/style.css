@@ -1,7 +1,11 @@
 .headermenu {
     float: right;
+    
     }
-
+a {
+    text-decoration: none;
+    color: #777777;
+}
 .top {
     padding-left: 50px;
     padding-right: 50px;
@@ -9,26 +13,13 @@
     background: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    
-    
+      
 }
-
 
 
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-
-.whitebox {
-    background: white;
-    clear: both;
-    padding: 40px;
-    height:900px;
-    margin: 40px;
-    width: 960px;
-    border-color: #777777;
-
 }
 
 .name {
@@ -38,16 +29,42 @@ h2 {
 body{
     color: #777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    height: 100%;
 }
 
 
 .middle{
-    background: #dddddd;
-    clear: both;
+    background: url("../images/criss-cross.png");
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    position:relative;
     padding: 0 150px 0 150px;
     overflow: auto;
-
+    clear: both;
+    border-color: #ffffff;
+    border: solid 1px;
+    flex: 1 0 auto;
+    
+}
+.whitebox {
+    position: relative;
+    background:white;
+    float: left;
+    clear: both;
+    padding: 40px;
+    height:auto;
+    margin: 40px;
+    width: 880px;
+    border-color: #777777;
+    
 }
 
 .footer {
@@ -55,8 +72,10 @@ body{
     border-top: 8px solid #4aaaa5;
     background: #666666;
     text-align: center;
+    flex-shrink: 0;
+    Padding-top: 30px;
     
-
+    
 }
 
 #p1 {text-align: center;
@@ -77,11 +96,13 @@ p {
 .pic{
     padding-right: 10px;
     float: left;
+    height: 200px;
+    width: 200px;
 }
 
 .topdiv{
     width: 960px;
-    padding-left: 190px;
+    padding-left:190px;
     
     
     
@@ -91,10 +112,19 @@ p {
     border-bottom: solid 1px;
 }
 
-.box{
-    border: solid 1px;
-    box-sizing: border-box; 
-    height: 30px;
+.input1[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+
+.input2[type=text] {
+    width: 100%;
+    padding: 80px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 .lgbox{
@@ -105,7 +135,7 @@ p {
 .button{
     background:#4aaaa5;
     padding: 10px;
-    margin-right:850px;
+    margin-right:800px;
     margin-top:10px;
     color:white;
     text-align: center;
@@ -119,7 +149,8 @@ p {
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
-    overflow: auto;
+    
+    
 
 }
 .insidebox{
@@ -131,6 +162,6 @@ p {
     margin-top:150px;
     padding-top:30px;
     font-size: 150%;
-
-
 }
+
+
