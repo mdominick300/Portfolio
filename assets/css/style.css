@@ -74,6 +74,7 @@ html{
     text-align: center;
     flex-shrink: 0;
     Padding-top: 30px;
+    color: #777777;
     
     
 }
@@ -149,19 +150,76 @@ p {
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
-    
-    
-
+    position: relative;
+    background: url("../images/unnamed.png");
+    background-size:cover;
+    background-position:center;
 }
+
+.rpggame{
+    border: solid 1px;
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    background: url("../images/game.gif");
+    background-size:cover;
+    background-position:center;
+}
+
+.trivia{
+    border: solid 1px;
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    background: url("../images/trivia.png");
+    background-size:cover;
+    background-position:center;
+}
+
+.fidget{
+    border: solid 1px;
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    background: url("../images/Sonic-Rpg-Eps-9.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.rock{
+    border: solid 1px;
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    background: url("../images/rockpaper.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+
 .insidebox{
     height: 50px;
     width: 100%;
     background: #4aaaa5;
     text-align: center;
     color: white;
-    margin-top:150px;
-    padding-top:30px;
     font-size: 150%;
+    position: relative;
+    margin-top:150px;
+    padding-top:20px;
+
 }
 
 
