@@ -20,6 +20,7 @@ a {
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 36px;
 }
 
 .name {
@@ -74,7 +75,8 @@ html{
     text-align: center;
     flex-shrink: 0;
     Padding-top: 30px;
-    color: #777777;
+    color: white;
+    font-size: 50%;
     
     
 }
@@ -92,13 +94,14 @@ html{
 }
 
 p {
-    line-height: 150%;}
-
+    line-height: 150%;
+}
 .pic{
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     float: left;
     height: 200px;
-    width: 200px;
+    width: 240px;
 }
 
 .topdiv{
@@ -115,7 +118,7 @@ p {
 
 .input1[type=text]{
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     
@@ -123,7 +126,7 @@ p {
 
 .input2[type=text] {
     width: 100%;
-    padding: 80px 20px;
+    padding: 10px 10px 160px 5px;
     margin: 8px 0;
     box-sizing: border-box;
 }
@@ -145,8 +148,8 @@ p {
 
 .portbox{
     border: solid 1px;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -158,8 +161,8 @@ p {
 
 .rpggame{
     border: solid 1px;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -171,8 +174,8 @@ p {
 
 .trivia{
     border: solid 1px;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -184,8 +187,8 @@ p {
 
 .fidget{
     border: solid 1px;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -197,8 +200,8 @@ p {
 
 .rock{
     border: solid 1px;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
